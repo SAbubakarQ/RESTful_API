@@ -33,6 +33,10 @@ Now in order to run the build, we can do one of two things.
     java -jar .\build\libs\demo-0.0.1-SNAPSHOT.jar
 
    which will then run the file. 
+   
+ Now to visit the API, http://localhost:8080/greeting which will display the given 'Hello, World'
+ 
+ Yet, when we visit http://localhost:8080/greeting?name=User, it will display 'Hello, User!' instead and will update the id number from 1 to 2. 
 
 
 Mubarak on your new API! 
