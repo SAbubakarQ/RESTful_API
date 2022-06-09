@@ -36,7 +36,10 @@ Now in order to run the build, we can do one of two things.
    
  Now to visit the API, http://localhost:8080/greeting which will display the given 'Hello, World'
  
- Yet, when we visit http://localhost:8080/greeting?name=User, it will display 'Hello, User!' instead and will update the id number from 1 to 2. 
+ Reason being it is the default. Therefore, it will output 'Hello, World!'
+ 
+ Yet, when we visit http://localhost:8080/greeting?name=User, it will display 'Hello, User!' instead and will update the id number from 1 to 2.
+ Now it will also change 'Hello, World!' to 'Hello, User!' becuase of the 'name=User' part of the link. If name='anythingelse' it will change it to that and greet them. 
 
 
 Mubarak on your new API! 
